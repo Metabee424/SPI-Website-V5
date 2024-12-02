@@ -1,0 +1,26 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background: #93A3B1; */
+}
+
+.contenedor {
+    max-width: 100%;
+    /* margin: 20px; */
+    display: flex;
+}
+
+.empty-div {
+    height: 6vw;
+}
+
+
+
+
+
+

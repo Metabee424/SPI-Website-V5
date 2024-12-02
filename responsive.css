@@ -1,0 +1,639 @@
+@media screen and (max-width: 1350px) {
+    .slogan p {
+        font-size: 85px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+}
+
+
+@media screen and (max-width: 1950px) {
+    .slogan p {
+        font-size: 88px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1750px) {
+    .slogan p {
+        font-size: 78px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .slogan p {
+        font-size: 68px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .slogan p {
+        font-size: 58px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .slogan p {
+        font-size: 48px;
+    }
+
+    .servicios h2 {
+        font-size: 40px;
+    }
+
+    .solucion {
+    width: 45%;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 35px;
+    }
+
+    .solucion .solucion-info p {
+        font-size: 30px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    .acercade h2 {
+        font-size: 40px;
+    }
+    
+    .acercade p {
+        font-size: 25px;
+    }
+
+    .acercade .cta-button {
+        font-size: 25px; 
+    }
+
+        
+    .informacion .texto-informacion h2 {
+        font-size: 35px;
+    }
+    
+    .informacion .texto-informacion p {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: -40px;
+    }
+
+    .titulo-form {
+        font-size: 25px;
+    }
+
+    .container-formulario .form {
+        font-size: 25px;
+    }
+
+    /* ---------------- SECCION TRANSFORMACION DIGITAL ---------------- */
+
+    .hero-screen {
+        flex-direction: column-reverse;
+        align-content: center;
+        margin-top: -60px;
+    }
+
+    .hero-screen .container-subtittle h2{
+        text-align: center;
+    }
+
+    .transformacion-digital-img img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .container-seguridad-digital {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .slogan p {
+        font-size: 46px;
+    }
+
+    .servicios h2 {
+        font-size: 35px;
+    }
+
+    .informacion .texto-informacion h2 {
+        font-size: 32px;
+    }
+    
+    .informacion .texto-informacion p {
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: -40px;
+    }
+    
+    .texto-informacion .cta-button {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    .slogan p {
+        font-size: 44px;
+    }
+
+    .sub-title h2 {
+        height: 60px;
+    }
+    .servicios h2 {
+        font-size: 32px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 35px;
+    }
+
+    .solucion .solucion-info p {
+        font-size: 28px;
+    }
+
+
+    .informacion .texto-informacion h2 {
+        font-size: 26px;
+    }
+
+    .informacion .texto-informacion p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: -40px;
+    }
+
+    .acercade {
+        width: 1000%;
+    }
+
+    .titulo-form {
+        font-size: 21px;
+    }
+
+    .container-formulario .form {
+        font-size: 20px;
+    }
+
+    footer .footer p {
+        font-size: 20px;
+    }
+
+    .footer .iconos {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .slogan p {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-tittle h2{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .slogan p {
+        font-size: 37px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .slogan p {
+        font-size: 34px;
+    }
+
+    .solucion {
+        width: 80%;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .slogan p {
+        font-size: 31px;
+    }
+
+    .solucion {
+        width: 60%;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 40px;
+    }
+
+    main .container-subtittle p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .slogan p {
+        font-size: 31px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 37px;
+    }
+
+    main .container-subtittle p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        align-content: center;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;  
+    }
+
+    .logo {
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .abrir-menu {
+        display: block;
+        color: #092552;
+    }
+
+    .cerrar-menu {
+        font-size: 30px;
+        color:#092552;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: -0;
+        /* background-color: #092552; */
+        padding: 20px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+   
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        background-color: #fff;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: end;
+        line-height: 50px;
+        padding: 20px;
+        margin-top: 20px;
+    
+    }
+
+    .nav-list a {
+        font-size: 28px;
+        color: #fff;
+        color: #092552;
+    }
+
+
+    .slogan p {
+        font-size: 30px;
+    }
+
+    .servicios h2 {
+        font-size: 28px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 30px;
+    }
+
+   .solucion .solucion-info p {
+        margin-top: 10px;
+        /* font-size: 15px; */
+    }
+
+    .informacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+   
+    .informacion .texto-informacion {
+        width: 100%;
+    }
+
+    .informacion .texto-informacion h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+
+    .info-img  {
+        width: 300px;
+    }
+
+    .informacion .texto-informacion p {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: -40px;
+    }
+
+
+    .titulo-form {
+        font-size: 18px;
+    }
+
+    .container-formulario .form {
+        font-size: 17px;
+    }
+
+    .container-formulario .form {
+        width: 100%;
+    }
+
+    .form .formulario {
+        width: 90%;
+    }
+
+    .container-formulario .form .contenedor-inputs input[type="name"],
+    .container-formulario .form .contenedor-inputs input[type="email"],
+    .container-formulario .form .contenedor-inputs textarea {
+        margin-bottom: 10px;
+    }
+    
+    .footer {
+    font-size: 12px;
+    text-align: center;
+    }
+
+    .footer a {
+        font-size: 25px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 35px;
+    }
+
+    main .container-subtittle p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .slogan p {
+        font-size: 27px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    .solucion-info h3 {
+        font-size: 10px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 28px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 30px;
+    }
+
+    main .container-subtittle p {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .slogan p {
+        font-size: 25px;
+    }
+
+    .abrir-menu {
+        display: block;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .subtittle-services {
+        font-size: 20px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 20px;
+    }
+
+    .cont-par {
+        font-size: 18px;
+    }
+
+    .button-container {
+        margin-top: -40px;
+    }
+
+    .container-aboutus h2 {
+        font-size: 30px;
+    }
+
+    .container-aboutus p {
+        font-size: 20px;
+    }
+    
+    .container-formulario .form {
+        width: 100%;
+    }
+
+    /* ---------------SECCION TRANSFORMACION DIGITAL----------------------- */
+
+    
+    main .offer-subtittle  h2 {
+        font-size: 80px;
+    }
+
+    main .container-subtittle h2 {
+        font-size: 28px;
+    }
+
+    /* main .container-subtittle p {
+        font-size: 15px;
+    } */
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    .slogan p {
+        font-size: 22px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 18px;
+    }
+
+    .info-img img {
+        width: 280px;
+    }
+
+    .cont-par {
+        font-size: 16px;
+    }
+
+        /* ---------------SECCION TRANSFORMACION DIGITAL----------------------- */
+
+    
+    main .offer-subtittle  h2 {
+        font-size: 1px;
+    }
+    
+    main .container-subtittle h2 {
+        font-size: 26px;
+    }
+   
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .slogan p {
+        font-size: 20px;
+    }
+
+    .solucion .solucion-info h3 {
+        font-size: 16px;
+    }
+
+    .cont-par {
+        font-size: 14px;
+    }
+
+    .info-img img {
+        width: 250px;
+    }
+
+    main .offer-subtittle  h2 {
+        font-size: 70px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .slogan p {
+        font-size: 18px;
+    }
+
+    .info-img img {
+        width: 230px;
+    }
+
+}  
+
+@media screen and (max-width: 450px) {
+
+    .slogan p {
+        font-size: 16px;
+    }
+
+    .info-img img {
+        width: 220px;
+    }
+
+    main .offer-subtittle  h2 {
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .slogan p {
+        font-size: 14px;
+    }
+
+    .info-img img {
+        width: 200px;
+    }
+
+    main .offer-subtittle  h2 {
+        font-size: 50px;
+    }
+}

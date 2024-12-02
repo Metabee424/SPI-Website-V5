@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    padding: 1rem;
+    position: fixed;
+}
+
+.main-logo {
+    width: 200px;
+    max-width: 30%;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.main-logo img {
+    width: 100%;
+}
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.2s linear;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+.main-nav.show {
+    margin-left: 0;
+}
+
+.nav-links {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: right;
+}
+
+.link-item {
+    margin: 1rem 0;
+    color: #092552;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.link-item::after {
+    content: "";
+    background-color: #333;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: width 0.3s ease;
+}
+
+.link-item:hover::after {
+    width: 100%;
+}
+
+.button-menu {
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button-menu span {
+    width: 30px;
+    height: 3px;
+    margin: 4px 0;
+    background: #092552;
+    border-radius: 3px;
+    transition: all 0.2s linear;
+}
+
+.button-menu.close span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.button-menu.close span:nth-child(2) {
+    opacity: 0;
+}
+
+.button-menu.close span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+@media screen and (min-width: 768px) {
+    .button-menu {
+        display: none;
+    }
+    .main-nav {
+        position: static;
+        margin-left: 0;
+        height: auto;
+        background: none;
+    }
+    .nav-links {
+        flex-direction: row;
+        background: none;
+        width: auto;
+        height: auto;
+    }
+    .link-item {
+        margin: 0 1rem;
+    }
+}
